@@ -52,9 +52,9 @@ namespace lizi_s_project.Controllers
             return Ok(result);
         }
 
-        [HttpGet("test1")]
+        [HttpGet("test2")]
 
-        public ActionResult Test1()
+        public ActionResult Test2()
         {
             int result = productService.TestFunction1();
             return Ok(result);
